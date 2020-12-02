@@ -149,6 +149,34 @@ img {
   letter-spacing: 0.1em;
 }
 
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  padding-top: 30px;
+
+  text-align: center;
+
+  color: #fff;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+
+  margin: 6px auto 10px auto;
+}
+
 /*Produtos*/
 
 .produtos {
