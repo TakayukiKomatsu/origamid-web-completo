@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/portfolio.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body>
     <header class="header">
@@ -43,7 +46,16 @@
         </div>
       </section>
 
-      <section class="container">
+      <section class="container" data-slide="quote">
+        <blockquote class="quote__cliente">
+          <p>
+            “Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão
+            perdendo. A precisão é absurda e a velocidade transcendental. Nunca
+            vida nada igual.”
+          </p>
+          <cite> Bernardo </cite>
+        </blockquote>
+
         <blockquote class="quote__cliente">
           <p>
             “Nada melhor do que dar um rolê com a minha Bikcraft na orla. Essa é
@@ -52,10 +64,19 @@
           </p>
           <cite> Jhony Rato </cite>
         </blockquote>
+
+        <blockquote class="quote__cliente">
+          <p>
+            “Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez
+            foi intensificar o meu amor por esta atividade. Recomendo à todos
+            que amo.”
+          </p>
+          <cite> Barbara Moss </cite>
+        </blockquote>
       </section>
 
       <section class="portfolio">
-        <div class="container">
+        <div class="container" data-slide="portfolio">
           <ul class="portfolio__lista">
             <li class="grid-8">
               <img
@@ -67,6 +88,28 @@
               <img
                 src="assets/portfolio/passeio.jpg"
                 alt="Modelo de bicicleta passeio"
+              />
+            </li>
+
+            <li class="grid-16">
+              <img
+                src="assets/portfolio/esporte.jpg"
+                alt="Modelo de bicicleta esporte"
+              />
+            </li>
+          </ul>
+
+          <ul class="portfolio__lista">
+            <li class="grid-8">
+              <img
+                src="assets/portfolio/passeio.jpg"
+                alt="Modelo de bicicleta passeio"
+              />
+            </li>
+            <li class="grid-8">
+              <img
+                src="assets/portfolio/retro.jpg"
+                alt="Modelo de bicicleta retro"
               />
             </li>
 
@@ -148,5 +191,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
