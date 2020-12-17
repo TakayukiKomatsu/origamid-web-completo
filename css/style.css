@@ -12,6 +12,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .subtitulo {
@@ -209,6 +210,7 @@ img {
 
 .produtos__lista li {
   background-color: #fec63e;
+
   text-align: center;
 }
 
