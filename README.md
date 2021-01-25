@@ -7,4 +7,4 @@ Projeto desenvolvido durante o curso Web Design Completo, da origamid.
 - Html
 - Css
 
-[Veja aqui](https://takayukikomatsu.github.io/web-completo-origamid/)
+[Veja aqui](https://takayukikomatsu.github.io/origamid-web-completo/)
